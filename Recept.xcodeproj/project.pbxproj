@@ -32,6 +32,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69E19B732B8FCF990071095B /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		69E19B742B8FCFA60071095B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCBAAE162B8F196400AD722B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69E19B752B8FCFAD0071095B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DCBAAE082B8F196400AD722B = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				DCBAAE142B8F196400AD722B /* ReceptApp.swift */,
-				DCBAAE162B8F196400AD722B /* ContentView.swift */,
+				69E19B752B8FCFAD0071095B /* Models */,
+				69E19B742B8FCFA60071095B /* Views */,
+				69E19B732B8FCF990071095B /* ModelViews */,
 				DCBAAE182B8F196600AD722B /* Assets.xcassets */,
 				DCBAAE1A2B8F196600AD722B /* Preview Content */,
 			);
